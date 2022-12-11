@@ -8,6 +8,6 @@ For the report I get from the dataset only the information that its necessary fo
 <p>Also added a title and removed the GridLines for better presentation.</p>
 
 <h1 align="center">
-  <img alt="Report" title="Report" src="./downloads/report_photo.png"/>
+  <img alt="Report" title="Report" src="./screenschots/report_photo.png"/>
 </h1>
 
