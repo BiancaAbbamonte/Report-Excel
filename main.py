@@ -10,10 +10,9 @@ excel_file = pd.read_excel('supermarket_sales.xlsx')
 report_table = excel_file.pivot_table(index='Gender', columns='Product line', values='Total', aggfunc='sum').round(0)
 
 report_table.to_excel('report_2021.xlsx', sheet_name='Report', startrow=4)
-# loading workbook and selecting sheet
+
 wb = load_workbook('report_2021.xlsx')
 sheet = wb['Report']
-# cell references (original spreadsheet)
 min_column = wb.active.min_column
 max_column = wb.active.max_column
 min_row = wb.active.min_row
